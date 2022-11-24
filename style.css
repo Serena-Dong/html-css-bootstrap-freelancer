@@ -1,10 +1,15 @@
 .row, .row .row{
     border: 2px black solid;
-    height: 100px;
+    min-height: 100px;
 }
 .row > [class^="col"]{
     border: 2px white solid;
 }
+
+.bg-turquoise{
+    background-color: turquoise;
+}
+
 
 
 
@@ -16,6 +21,15 @@ header{
 }
 
 /* MAIN */
+
+section{
+    min-height: 400px;
+}
+
+
+
+
+
 /* #INTRO */
 /* #PORTFOLIO */
 /* #ABOUT */

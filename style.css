@@ -1,0 +1,24 @@
+.row, .row .row{
+    border: 2px black solid;
+    height: 100px;
+}
+.row > [class^="col"]{
+    border: 2px white solid;
+}
+
+
+
+/* HEADER */
+
+header{
+    background-color: navy;
+    height: 100px;
+}
+
+/* MAIN */
+/* #INTRO */
+/* #PORTFOLIO */
+/* #ABOUT */
+/* #CONTACT */
+
+/* FOOTER */

@@ -3,7 +3,7 @@
     min-height: 100px;
 }
 .row > [class^="col"]{
-    border: 2px white solid;
+    border: 2px black solid;
 }
 
 .bg-turquoise{

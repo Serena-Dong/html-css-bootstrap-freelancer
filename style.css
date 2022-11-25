@@ -1,9 +1,7 @@
-.row, .row .row{
-    border: 2px black solid;
-    min-height: 80px;
-}
 .row > [class^="col"]{
-    border: 2px black solid;
+}
+.row, .row .row{
+    min-height: 80px;
 }
 .text-green{
     color: rgb(33, 199, 166);
@@ -106,6 +104,11 @@ footer .footer-top .container{
     .container{
         max-width: 750px;
     }
+    #portfolio .row:last-child .col-3{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
 }
 
 @media screen and (max-width: 578px) {
@@ -122,7 +125,20 @@ footer .footer-top .container{
     img{
         width: 60%;
     }
-    #portfolio .row:last-child, .footer-top .row{
+    #portfolio .row:last-child, #about .row, .footer-top .row{
+        flex-direction: column;
+    }
+    #portfolio .row:last-child .col-3{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    #about .row{
+        align-items: center;
+    }
+    #about .col-5{
+       width: 80%;
+    }
+    footer .footer-top .row{
         flex-direction: column;
     }
 }

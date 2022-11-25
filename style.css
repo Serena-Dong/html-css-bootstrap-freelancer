@@ -6,8 +6,8 @@
     border: 2px black solid;
 }
 
-.bg-turquoise{
-    background-color: turquoise;
+.bg-green{
+    background-color: rgb(33, 199, 166);
 }
 .bg-darkblue{
     background-color: rgb(0, 35, 75);
@@ -25,6 +25,9 @@ ul li{
     list-style: none;
     display: inline;
     margin-left: 20px;
+}
+img{
+    width: 50%;
 }
 
 /* HEADER */
@@ -53,6 +56,12 @@ section{
 
 
 /* #INTRO */
+
+.line{
+    background-color: white;
+    width: 30%;
+    height: 3px;
+}
 /* #PORTFOLIO */
 /* #ABOUT */
 /* #CONTACT */
@@ -74,13 +83,17 @@ footer .footer-top .container{
 
 @media screen and (max-width: 578px) {
     .container{
-        max-width: 560px;
+        width: 500px;
+        padding: 0;
     }
     #nav-actions{
         display: none;
     }
     .fa-bars{
         display: block;
+    }
+    img{
+        width: 60%;
     }
     #portfolio .row:last-child, .footer-top .row{
         flex-direction: column;

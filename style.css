@@ -34,9 +34,10 @@ ul li{
     height: 3px;
 }
 
-/* BUTTONS*/
+/* BUTTONS */
 
 #download-btn{
+    padding: 10px 20px;
     border: 2px white solid;
     border-radius: 10px;
 }

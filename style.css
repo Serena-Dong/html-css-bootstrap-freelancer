@@ -1,6 +1,6 @@
 .row, .row .row{
     border: 2px black solid;
-    min-height: 100px;
+    min-height: 80px;
 }
 .row > [class^="col"]{
     border: 2px black solid;
@@ -16,12 +16,30 @@
     background-color: rgb(0, 25, 53);
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 
+ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
 
 /* HEADER */
 
 header{
-    height: 100px;
+    height: 80px;
+}
+.fa-bars{
+    display: none;
+    color: rgba(255, 255, 255, 0.577);
+
+    border: 2px solid rgba(255, 255, 255, 0.661);
+    border-radius: 5px;
+
+    padding: 5px 10px;
 }
 
 /* MAIN */
@@ -42,4 +60,29 @@ section{
 /* FOOTER */
 footer .footer-top .container{
     padding: 50px 0;
+}
+
+
+
+/* #RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 750px;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .container{
+        max-width: 560px;
+    }
+    #nav-actions{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    #portfolio .row:last-child, .footer-top .row{
+        flex-direction: column;
+    }
 }

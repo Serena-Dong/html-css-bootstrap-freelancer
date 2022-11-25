@@ -5,7 +5,9 @@
 .row > [class^="col"]{
     border: 2px black solid;
 }
-
+.text-green{
+    color: rgb(33, 199, 166);
+}
 .bg-green{
     background-color: rgb(33, 199, 166);
 }
@@ -24,7 +26,7 @@ a{
 ul li{
     list-style: none;
     display: inline;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .line{
@@ -35,10 +37,22 @@ ul li{
 /* BUTTONS*/
 
 #download-btn{
-    padding: 10px 15px;
     border: 2px white solid;
     border-radius: 10px;
 }
+
+footer .fa-brands{
+    padding: 10px 10px;
+    border: white 2px solid;
+    border-radius: 100%;
+}
+footer .fa-facebook-f{
+    padding: 10px 15px;
+}
+footer .fa-linkedin-in{
+    padding: 10px 12px;
+}
+
 
 /* HEADER */
 

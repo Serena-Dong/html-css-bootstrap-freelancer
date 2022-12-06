@@ -114,6 +114,9 @@ input{
 footer .footer-top .container{
     padding: 50px 0;
 }
+#links .col-12 ul li {
+    padding-bottom: 3rem;
+}
 
 
 
